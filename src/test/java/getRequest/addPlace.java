@@ -55,6 +55,8 @@ public class addPlace {
 
 		String address = commonMethods.getJsonObject(result).getString("address");
 		System.out.println("---------Verify Address-------" + address);
+		System.out.println("---------Verify Address-------" + address);
+		System.out.println("---------Verify Address-------" + address);
 		Assert.assertEquals(address, "Adams Garden");
 	}
 	
