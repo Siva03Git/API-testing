@@ -58,7 +58,9 @@ public class addPlace {
 		System.out.println("---------Verify Address-------" + address);
 		System.out.println("---------Verify Address-------" + address);
 		System.out.println("---------Verify Address-------" + address);
+		System.out.println("---------XXXXXXXXX-------" + address);
 		Assert.assertEquals(address, "Adams Garden");
+		
 	}
 	
 	
